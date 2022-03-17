@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="css/index.css">
+        <title>Basic Calculator</title>
+    </head>
+    <body>
+        <div class="mainParent">
+            <div class="display-screen">
+                <input type="text" class="calc-inp-screen" readonly/>
+            </div>
+            <div class="buttons-container">
+                <div class="buttons">
+                    <div class="row1">
+                        <div class="button num" id="num7"><i class="fa-solid fa-7 numberN"></i></div>
+                        <div class="button num" id="num8"><i class="fa-solid fa-8 numberN"></i></div>
+                        <div class="button num" id="num9"><i class="fa-solid fa-9 numberN"></i></div>
+                        <div class="button operator" id="operator+">+</div>
+                    </div>
+
+                    <div class="row2">
+                        <div class="button num" id="num4"><i class="fa-solid fa-4 numberN"></i></div>
+                        <div class="button num" id="num5"><i class="fa-solid fa-5 numberN"></i></div>
+                        <div class="button num" id="num6"><i class="fa-solid fa-6 numberN"></i></div>
+                        <div class="button operator" id="operator-">-</div>
+                    </div>
+
+                   <div class="row3">
+                       <div class="button num" id="num1"><i class="fa-solid fa-1 numberN"></i></div>
+                       <div class="button num" id="num2"><i class="fa-solid fa-2 numberN"></i></div>
+                       <div class="button num" id="num3"><i class="fa-solid fa-3 numberN"></i></div>
+                       <div class="button operator" id="operatorX">*</div>
+                   </div>
+
+                    <div class="row4">
+                        <div class="button num" id="num0"><i class="fa-solid fa-0 numberN"></i></div>
+                        <div class="button num" id="DOT">.</div>
+                        <div class="button operator" id="operator/">/</div>
+                        <div class="button operator" id="operatorEQ">=</div>
+                    </div>
+                    <div class="row5">
+                        <div class="ClearButton">
+                            Clear
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       <script src="js/calcfunc.js"></script>
+    </body>
+</html>

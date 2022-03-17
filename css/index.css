@@ -1,0 +1,149 @@
+.mainParent{
+    background-image: url(../img/background-border.svg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    height: 100vh;
+    width: 100vw;
+}
+.display-screen{
+    display: flex;
+    justify-content: center;
+    padding-top: 103px;
+}
+.calc-inp-screen{
+    outline: none;
+    text-align: right;
+    background-color: #FF0000;
+    height: 18vh;
+    width: 18.5vw;
+    font-size: 7em;
+    color: slategray;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 0px;
+    padding-right: 0.5vw;
+}
+
+.buttons-container{
+    display: flex;
+    justify-content: center;
+}
+.buttons{
+    background-color: white;
+    width: 19vw;
+    height: 52vh;
+    box-sizing: border-box;
+    padding-left: 1vw;;
+    padding-right: 1vw;
+}
+.row1{
+    margin-top: 19px;
+    display: flex;
+    justify-content: space-around;
+}
+.row2{
+    margin-top: 19px;
+    display: flex;
+    justify-content: space-around;
+}
+.row3{
+    margin-top: 19px;
+    display: flex;
+    justify-content: space-around;
+}
+.row4{
+    margin-top: 19px;
+    display: flex;
+    justify-content: space-around;
+}
+.button{
+    display: inline-block;
+    border-radius: 50%;
+    background-color: rgb(230, 231, 232);
+    color: rgb(97, 98, 99);
+    height: 7vh;
+    width: 4vw;
+    text-align: center;
+    padding-top: 1vh;
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.button:hover{
+    background-color: aliceblue;
+}
+.numberN{
+    -webkit-text-stroke: 2px ;
+    font-size: 0.8em;
+}
+.operator{
+    font-weight: 900;
+}
+#operatorX{
+    font-weight: lighter;
+}
+#operatorEQ{
+    background-color: #FF0000;
+    color: white;
+}
+#operatorEQ:hover{
+    background-color: rgb(252, 113, 104);
+}
+.ClearButton{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(230, 231, 232);
+    height: 6vh;
+    margin-top: 1vh;
+    font-family: fantasy;
+    box-sizing: border-box;
+    font-size: 2em;
+    color: rgb(141, 143, 142);
+}
+.ClearButton:hover{
+    background-color: aliceblue;
+}
+@media screen and (max-width:1000px) {
+    .calc-inp-screen{
+        width: 25.5vw;
+    }
+    .buttons{
+        width: 26vw;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .calc-inp-screen{
+        width: 37.5vw;
+    }
+    .buttons{
+        width: 38vw;
+    }
+    .button{
+        width: 7vw;
+    }
+}
+@media screen and (max-width:500px) {
+    .calc-inp-screen{
+        width: 51.5vw;
+    }
+    .buttons{
+        width: 52vw;
+    }
+    .button{
+        width: 10vw;
+    }
+}
+@media screen and (max-width:347px) {
+    .calc-inp-screen{
+        width: 77.5vw;
+    }
+    .buttons{
+        width: 78vw;
+    }
+    .button{
+        width: 14vw;
+    }
+}
+
